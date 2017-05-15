@@ -1,0 +1,5 @@
+BaseProject/obj/
+BaseProject/bin/
+BaseProjectTests/bin/
+BaseProjectTests/obj/
+packages/
