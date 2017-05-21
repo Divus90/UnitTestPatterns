@@ -4,6 +4,10 @@
     {
         public IVehicleDetailsProvider Create(VehicleDto vehicle)
         {
+            if (vehicle == null)
+            {
+                return new NullDetailsProvider();
+            }
             switch (vehicle.VehicleType)
             {
                 case VehicleType.Boat:
